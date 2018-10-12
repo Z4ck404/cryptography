@@ -8,7 +8,7 @@ def letternumber(n):
     for key,value in dict.items():
         if ( value == n) :
             return key            
-def codeletter(text,key):
+def encrypt(text,key):
     cypher =[]
     T = split(text)
     K= split(key)
